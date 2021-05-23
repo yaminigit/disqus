@@ -1,0 +1,56 @@
+.comment-wrapper {
+  padding: 1%;
+}
+
+.reply-container {
+  margin-left: 5%;
+}
+
+.comment-container {
+  display: flex;
+}
+
+.image-container {
+  flex: 0 0 5%;
+}
+
+.authorImage {
+  width: 40px;
+  height: 40px;
+}
+
+.content-wrapper {
+  flex: 0 0 50%;
+}
+
+.content-container {
+  display: flex;
+}
+
+.content-name {
+  display: flex;
+  font-weight: bold;
+}
+
+.content-time {
+  color: #d6cfcf;
+  margin-left: 2%;
+}
+
+.content-text {
+  display: flex;
+}
+
+.comment-option {
+  display: flex;
+  color: #c7c0c0;
+}
+
+.reply-button {
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.like-button {
+  cursor: pointer;
+}

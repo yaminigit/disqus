@@ -1,0 +1,50 @@
+.post-conatiner {
+  padding: 1% 0 0 1%;
+}
+
+.post-header {
+  display: flex;
+  padding-bottom: 1%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.post-content {
+  display: flex;
+}
+
+.comment-header {
+  display: flex;
+  border-bottom: 1px solid #d6cfcf;
+  padding: 1%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.comment-content {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.add-comment {
+  display: flex;
+  padding: 1%;
+  flex-direction: column;
+  width: 50%;
+}
+
+textarea {
+  border: 1px solid #c7c0c0;
+  border-radius: 5px;
+}
+
+.add-reply {
+  background-color: blue;
+  color: white;
+  width: 12%;
+  padding: 1%;
+  border-radius: 5px;
+  margin-top: 1%;
+  font-weight: 500;
+  cursor: pointer;
+}
